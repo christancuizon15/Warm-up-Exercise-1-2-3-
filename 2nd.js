@@ -1,0 +1,8 @@
+let people = [
+  { name: "Tom", age: 16 },
+  { name: "Jerry", age: 18 },
+  { name: "Spike", age: 22 }
+];
+
+const adults = people.filter(person => person.age >= 18);
+console.log(adults); 
